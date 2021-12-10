@@ -1,7 +1,5 @@
 from keywinio import *
 import time
-import ctypes
-import pywinio
 import win32api
 import win32con
 
