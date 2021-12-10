@@ -1,6 +1,5 @@
 from keywinio import *
 import time
-import pywinio
 import win32api
 
 def 上箱():
@@ -10,7 +9,7 @@ def 上箱():
 			flag=1
 			if flag == 1:
 				print(win32api.GetCursorPos())
-				print('我跳!')
+				print('我上尼玛!')
 				key_down(0x11)#按住w
 				time.sleep(0.05)
 				key_down(0x39)#按跳
